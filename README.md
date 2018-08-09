@@ -17,4 +17,4 @@ node app.js -a "<your addres>"
 
 An example of an address may be "Magaluf Spain" or "M60 7RA"
 
-This will return your formatted address along with the temperature and apparent temperature
+This will return your formatted address along with the temperature and apparent temperature. Alternatively you can run this command in the app2.js file as it will do the smae thing. This file was just to demonstrate the differences of using a libary that by default does not support promises
