@@ -4,14 +4,12 @@ To get the project up and running you will have to have NPM (Node Package Manage
 
 ### Getting Started
 
-Once you have everything installed run
+Once you have everything installed navigate to the app.js file and run the command
 
 ```
 npm install
 ```
-this will install all dependencies on to your local machine
-
-Once you have done that, navigate to the app.js file and run the command
+this will install all dependencies on to your local machine. Then run the command
 
 ```
 node app.js -a "<your addres>"
