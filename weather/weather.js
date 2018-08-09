@@ -10,12 +10,13 @@ var getWeather = (lat, long) => {
 
 			if (response.statusCode === 200) {
 				resolve({
-					temperature: body.currently.temperature
+					temperature: body.currently.temperature,
+					apparentTemperature: body.currently.apparentTemperature
 				})
 			} else if (response.statusCode === 400) {
 				reject(body.error)
 			} else {
-				reject("Could not connect to forecast io server")
+				reject("Could not connect to forecast io servers")
 			}
 		}
 	)
